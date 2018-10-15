@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		75924EB7216627600079F0B6 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 75924EB6216627600079F0B6 /* locations.json */; };
+		758459672174D384005F8292 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 758459662174D384005F8292 /* locations.json */; };
 		759B4C802167A70400C1CAB5 /* CarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759B4C7F2167A70400C1CAB5 /* CarView.swift */; };
 		759B4C83216955F700C1CAB5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 759B4C82216955F700C1CAB5 /* MapKit.framework */; };
 		759B4C852169560D00C1CAB5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 759B4C842169560D00C1CAB5 /* CoreLocation.framework */; };
+		759B4C8A216CAC8900C1CAB5 /* FirstViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759B4C89216CAC8900C1CAB5 /* FirstViewControllerTests.swift */; };
 		75AB4A502164EBFF00FB7C3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AB4A4F2164EBFF00FB7C3F /* AppDelegate.swift */; };
 		75AB4A522164EBFF00FB7C3F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AB4A512164EBFF00FB7C3F /* FirstViewController.swift */; };
 		75AB4A542164EBFF00FB7C3F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AB4A532164EBFF00FB7C3F /* SecondViewController.swift */; };
 		75AB4A572164EBFF00FB7C3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75AB4A552164EBFF00FB7C3F /* Main.storyboard */; };
 		75AB4A592164EC0000FB7C3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75AB4A582164EC0000FB7C3F /* Assets.xcassets */; };
 		75AB4A5C2164EC0000FB7C3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75AB4A5A2164EC0000FB7C3F /* LaunchScreen.storyboard */; };
-		75AB4A672164EC0000FB7C3F /* WunderAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AB4A662164EC0000FB7C3F /* WunderAppTests.swift */; };
 		75AB4A722166075600FB7C3F /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AB4A712166075600FB7C3F /* TableViewCell.swift */; };
 		75AB4A7421660A9700FB7C3F /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AB4A7321660A9700FB7C3F /* Car.swift */; };
 /* End PBXBuildFile section */
@@ -33,10 +33,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		75924EB6216627600079F0B6 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = locations.json; path = ../../../../Downloads/locations.json; sourceTree = "<group>"; };
+		758459662174D384005F8292 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
 		759B4C7F2167A70400C1CAB5 /* CarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarView.swift; sourceTree = "<group>"; };
 		759B4C82216955F700C1CAB5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		759B4C842169560D00C1CAB5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		759B4C89216CAC8900C1CAB5 /* FirstViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewControllerTests.swift; sourceTree = "<group>"; };
 		75AB4A4C2164EBFF00FB7C3F /* WunderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WunderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75AB4A4F2164EBFF00FB7C3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75AB4A512164EBFF00FB7C3F /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -46,7 +47,6 @@
 		75AB4A5B2164EC0000FB7C3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75AB4A5D2164EC0000FB7C3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75AB4A622164EC0000FB7C3F /* WunderAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WunderAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		75AB4A662164EC0000FB7C3F /* WunderAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WunderAppTests.swift; sourceTree = "<group>"; };
 		75AB4A682164EC0000FB7C3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75AB4A712166075600FB7C3F /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		75AB4A7321660A9700FB7C3F /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
@@ -81,6 +81,29 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		759B4C86216CAC2000C1CAB5 /* Cases */ = {
+			isa = PBXGroup;
+			children = (
+				759B4C89216CAC8900C1CAB5 /* FirstViewControllerTests.swift */,
+			);
+			path = Cases;
+			sourceTree = "<group>";
+		};
+		759B4C87216CAC2A00C1CAB5 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		759B4C88216CAC3700C1CAB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75AB4A682164EC0000FB7C3F /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		75AB4A432164EBFF00FB7C3F = {
 			isa = PBXGroup;
 			children = (
@@ -109,8 +132,8 @@
 				75AB4A7321660A9700FB7C3F /* Car.swift */,
 				759B4C7F2167A70400C1CAB5 /* CarView.swift */,
 				75AB4A532164EBFF00FB7C3F /* SecondViewController.swift */,
+				758459662174D384005F8292 /* locations.json */,
 				75AB4A552164EBFF00FB7C3F /* Main.storyboard */,
-				75924EB6216627600079F0B6 /* locations.json */,
 				75AB4A582164EC0000FB7C3F /* Assets.xcassets */,
 				75AB4A5A2164EC0000FB7C3F /* LaunchScreen.storyboard */,
 				75AB4A5D2164EC0000FB7C3F /* Info.plist */,
@@ -121,8 +144,9 @@
 		75AB4A652164EC0000FB7C3F /* WunderAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				75AB4A662164EC0000FB7C3F /* WunderAppTests.swift */,
-				75AB4A682164EC0000FB7C3F /* Info.plist */,
+				759B4C86216CAC2000C1CAB5 /* Cases */,
+				759B4C87216CAC2A00C1CAB5 /* Data */,
+				759B4C88216CAC3700C1CAB5 /* Supporting Files */,
 			);
 			path = WunderAppTests;
 			sourceTree = "<group>";
@@ -180,6 +204,7 @@
 					};
 					75AB4A612164EC0000FB7C3F = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 						TestTargetID = 75AB4A4B2164EBFF00FB7C3F;
 					};
 				};
@@ -210,7 +235,7 @@
 			files = (
 				75AB4A5C2164EC0000FB7C3F /* LaunchScreen.storyboard in Resources */,
 				75AB4A592164EC0000FB7C3F /* Assets.xcassets in Resources */,
-				75924EB7216627600079F0B6 /* locations.json in Resources */,
+				758459672174D384005F8292 /* locations.json in Resources */,
 				75AB4A572164EBFF00FB7C3F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,7 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75AB4A672164EC0000FB7C3F /* WunderAppTests.swift in Sources */,
+				759B4C8A216CAC8900C1CAB5 /* FirstViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,9 +458,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SVU6D9G33T;
-				INFOPLIST_FILE = WunderAppTests/Info.plist;
+				INFOPLIST_FILE = "WunderAppTests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -443,6 +469,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xavierwuapp.WunderAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WunderApp.app/WunderApp";
@@ -454,9 +481,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SVU6D9G33T;
-				INFOPLIST_FILE = WunderAppTests/Info.plist;
+				INFOPLIST_FILE = "WunderAppTests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

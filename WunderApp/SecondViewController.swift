@@ -96,12 +96,8 @@ extension SecondViewController: MKMapViewDelegate {
 //                view.canShowCallout = true
             }
         }
-//        let selectedAnnottion = view.annotation
         
         view.isHidden = false
-//        view.canShowCallout = false
-        
-        print("you tap once")
     }
     
 }
